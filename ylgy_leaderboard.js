@@ -1,4 +1,4 @@
-ar body = $response.body
+var body = $response.body
 var url = $request.url
 
 if (body) {
